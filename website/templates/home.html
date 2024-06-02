@@ -6,11 +6,11 @@
 
     {% if user.is_authenticated %}
     <h1>Records</h1>
-    {% if records %}
-        {% for record in records%}
-            {{ record }} <br>
-        {% endfor %}
-    {% elseif %}
+        {% if records %}
+            {% for record in records%}
+                {{ record.first_name }} <br>
+            {% endfor %}
+        {% endif %}
 
     {% else %}
 
