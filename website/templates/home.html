@@ -5,7 +5,14 @@
 
 
     {% if user.is_authenticated %}
-    <h1>Hello World.</h1> {% else %}
+    <h1>Records</h1>
+    {% if records %}
+        {% for record in records%}
+            {{ record }} <br>
+        {% endfor %}
+    {% elseif %}
+
+    {% else %}
 
     <h1>Login</h1>
     <br>
