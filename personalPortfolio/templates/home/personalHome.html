@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-widthm initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'home/style.css' %}">
+    <title>Personal Portfolio</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <a href="#"><img src="{% static 'home/assets/logo.png' %}" alt="Logo"></a>
+        </div>
+        <div class="nav-links">
+            <a href="#">Docs</a>
+            <a href="#">Project</a>
+            <a href="#">Blog</a>
+            <a href="#">Youtube</a>
+            <a href="#">About</a>
+        </div>
+        <button><i class="ri-github-fill"></i> My Project</button>
+    </nav>
+</body>
+</html>
