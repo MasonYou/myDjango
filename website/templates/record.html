@@ -3,9 +3,14 @@
 {% block content %}
 
 <h1> Customer Record:</h1>
+<div class="card" style="width: 18rem;">
+  <img src="..." class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">{{ user_record }}</h5>
+    <p class="card-text">{{user_record.phone}}</p>
+    <a href="#" class="btn btn-primary">Vote</a>
+  </div>
+</div>
 
-{{ user_record }}<br>
-{{user_record.email}}<br>
-{{user_record.phone}}<br>
 
 {% endblock %}
