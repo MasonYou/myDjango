@@ -26,7 +26,7 @@ class Record(models.Model):
 
     state = models.CharField(max_length=2, choices=STATE_CHOICES)
     zipcode =models.CharField(max_length=50)
-    deleted_at = models.DateTimeField(null=True, blank=True)
+
 
 
     def __str__(self):
