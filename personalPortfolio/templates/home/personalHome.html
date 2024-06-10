@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
     {% load static %}
+    <script src ="{% static 'home/personalHome.js' %}"></script>
     <link rel="stylesheet" href="{% static 'home/style.css' %}">
     <title> Mason Profile</title>
 </head>
@@ -23,14 +24,9 @@
             <a href="#">Youtube</a>
             <a href="#">About</a>
         </div>
-        <button><i class="ri-github-fill"></i> My Projects</button>
+        <button onclick="goToGitHub()"><i class="ri-github-fill"></i> My Projects</button>
     </nav>
 
-    <footer class = "footer">
-        <a href="#">Terms of Service</a>
-        <a href="#">Privacy Policy</a>
-        <p>© 2024 AsmrProg Youtube Channel.</p>
-    </footer>
 
 </body>
 
