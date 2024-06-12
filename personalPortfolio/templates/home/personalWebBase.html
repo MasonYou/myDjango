@@ -12,8 +12,16 @@
 </head>
 
 <body>
+<div class="mainNavbar">
 
   {% include 'home/personalWebNavbar.html' %}
+</div>
+
+  <div class="mainHome">
+
+      {% block content %}
+      {% endblock %}
+  </div>
 
 </body>
 
