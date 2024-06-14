@@ -2,7 +2,36 @@
 
 {% block content %}
 
+{% load static %}
+<script src="{% static 'docs/personalWebCalendar.js' %}"></script>
+<div class="container">
+    <div class="calendar">
+        <header>
+            <pre class="left">
+                <pre class="left">◀</pre>
+                <div class="header-display">
+                  <p class="display">""</p>
+                </div>
+                <pre class="right">▶</pre>
+            </pre>
+        </header>
+        <div class="week">
+            <div> Sun </div>
+            <div> Mon </div>
+            <div> Tue </div>
+            <div> Wed </div>
+            <div> Thu </div>
+            <div> Fri </div>
+            <div> Sat </div>
+        </div>
+        <div class="days">
 
-<script src="{% staic 'docs/personalWebCalendar.js' %}"></script>
+        </div>
+    </div>
+        <div class="display-selected">
+            <p class="selected"></p>
+        </div>
+</div>
+
 
 {% endblock %}
