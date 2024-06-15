@@ -2,12 +2,19 @@
 
 {% block content %}
 {% load static %}
-<script scr = "{% static 'home/personalWebHome.js'}"></script>
+<script scr="{% static 'home/personalWebHome.js' %}"></script>
 <link rel="stylesheet" href="{% static 'home/personalWebHome.css' %}">
 
-<h2> Mason You </h2>
+<div class="mainHome">
+    <div class="left-section">
+        <div class="top">
+            <h2> Mason You </h2>
+            <p>
+                Full Stack Developer experienced in creating personal website.
+                .NET Framework Programmer skilled in developing Windows applications for internal ERP systems.
+            </p>
+        </div>
+    </div>
+</div>
 
-<p>
-
-</p>
 {% endblock %}

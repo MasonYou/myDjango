@@ -1,0 +1,14 @@
+.mainHome{
+    margin-top: 80px;
+    height: calc(100hv-80px);
+    padding: 0 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.mainHome .left-section{
+    display: flex;
+    flex-direction: column;
+}
