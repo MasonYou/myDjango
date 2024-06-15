@@ -1,20 +1,29 @@
-{% extends 'personalWebBase.html' %}
-
-{% block content %}
-{% load static %}
+{% extends 'personalWebBase.html' %} {% block content %} {% load static %}
 <script scr="{% static 'home/personalWebHome.js' %}"></script>
-<link rel="stylesheet" href="{% static 'home/personalWebHome.css' %}">
+<link rel="stylesheet" href="{% static 'home/personalWebHome.css' %}" />
 
 <div class="mainHome">
-    <div class="left-section">
-        <div class="top">
-            <h2> Mason You </h2>
-            <p>
-                Full Stack Developer experienced in creating personal website.
-                .NET Framework Programmer skilled in developing Windows applications for internal ERP systems.
-            </p>
-        </div>
+  <div class="left-section">
+    <div class="top">
+      <h2>Mason You</h2>
+      <h3>Full Stack Web Developer</h3>
+      <p>
+        Full Stack Developer experienced in creating personal website.
+        <br />
+        .NET Framework Programmer skilled in developing Windows applications for
+        internal ERP systems.
+      </p>
+      <div class="button">
+        <button class="linkedin">
+          <i class="ri-linkedin-fill"></i>
+        </button>
+      </div>
     </div>
+    <div class="bottom">
+      <p>Social Media:</p>
+      <div></div>
+    </div>
+  </div>
 </div>
 
 {% endblock %}
