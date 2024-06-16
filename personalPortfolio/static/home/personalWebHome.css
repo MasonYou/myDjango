@@ -30,3 +30,8 @@
     text-align: justify;
 }
 
+.mainHome .left-section .top .button {
+    display: flex;
+    gap: 8px;
+}
+

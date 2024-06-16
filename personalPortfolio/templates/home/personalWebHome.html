@@ -2,8 +2,9 @@
 
 {% block content %} 
 
+
 {% load static %}
-<script scr="{% static 'home/personalWebHome.js' %}"></script>
+<script src="{% static 'home/personalWebHome.js' %}"></script>
 <link rel="stylesheet" href="{% static 'home/personalWebHome.css' %}" />
 
 <div class="mainHome">
@@ -18,9 +19,11 @@
         internal ERP systems.
       </p>
       <div class="button">
-        <button onclick="goToLinkedin()">
+        <button class="linkedinButton" onclick="goToLinkedin()">
           My Linkedin<i class="ri-linkedin-box-fill"></i>
         </button>
+            <button class="linkedinButton" onclick="goToGitHub()">
+              <i class="ri-github-fill"></i> My Projects</button>
       </div>
     </div>
     <div class="bottom">
