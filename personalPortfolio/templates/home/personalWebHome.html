@@ -2,7 +2,6 @@
 
 {% block content %} 
 
-
 {% load static %}
 <script src="{% static 'home/personalWebHome.js' %}"></script>
 <link rel="stylesheet" href="{% static 'home/personalWebHome.css' %}" />
@@ -18,17 +17,17 @@
         .NET Framework Programmer skilled in developing Windows applications for
         internal ERP systems.
       </p>
-      <div class="button">
+      <div class="buttons">
         <button class="linkedinButton" onclick="goToLinkedin()">
-          My Linkedin<i class="ri-linkedin-box-fill"></i>
+          <i class="ri-linkedin-box-fill"></i> My Linkedin
         </button>
-            <button class="linkedinButton" onclick="goToGitHub()">
-              <i class="ri-github-fill"></i> My Projects</button>
+        <button class="githubButton" onclick="goToGitHub()">
+          <i class="ri-github-fill"></i> My Projects
+        </button>
       </div>
     </div>
-    <div class="bottom">
-      <p>Social Media:</p>
-      <div></div>
+    <div class="bottom">  
+      
     </div>
   </div>
 </div>
