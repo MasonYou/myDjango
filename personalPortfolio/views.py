@@ -5,4 +5,4 @@ def home(request):
     return render(request, 'home/personalWebHome.html', {})
 
 def docs(request):
-    return render(request, 'docs/personalWebCalendar.html', {})
+    return render(request, 'docs/personalWebDocs.html', {})
