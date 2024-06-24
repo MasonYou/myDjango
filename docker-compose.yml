@@ -2,6 +2,7 @@ version: '3.8'
 
 services:
   db:
+    container_name: mysql_db
     image: mysql:8.0
     restart: always
     environment:
@@ -15,6 +16,7 @@ services:
       - db_data:/var/lib/mysql
 
   web:
+
     build: .
     command: python manage.py runserver 0.0.0.0:8000
     volumes:

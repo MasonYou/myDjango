@@ -1,7 +1,6 @@
+myproject/__pycache__/
+personalPortfolio/__pycache__/
+website/__pycache__/
+
 rsaKeyPair.pem
 cmdAWS.txt
-
-myproject/__pycache__/*
-personalPortfolio/__pycache__/*
-website/__pycache__/*
-
