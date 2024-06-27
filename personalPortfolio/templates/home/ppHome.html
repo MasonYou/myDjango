@@ -1,8 +1,4 @@
-{% extends 'ppBase.html' %}
-
-{% block content %} 
-
-{% load static %}
+{% extends 'ppBase.html' %} {% block content %} {% load static %}
 <script src="{% static 'home/ppHome.js' %}"></script>
 <link rel="stylesheet" href="{% static 'home/ppHome.css' %}" />
 
@@ -26,30 +22,32 @@
         </button>
       </div>
     </div>
-    <div class="bottom">  
-      
-    </div>
+    <div class="bottom"></div>
   </div>
 </div>
 
 <div class="aboutMe">
   <p>About Web Development</p>
   <h2>Create Personal Website</h2>
-  <div class = "devItems">
-
-  <div class="devItem">
-    <div class="inner">
-      <a href="#">Back-End Development</a>
-      <p>Django and SQL</p>
+  <div class="devItems">
+    <div class="devItem">
+      <div class="inner">
+        <a href="#">Front-end Development</a>
+        <p>I use HTML, CSS, and JavaScript for front-end development, creating a responsive and visually appealing user experience. HTML provides the structure, CSS ensures a stylish and adaptable design, and JavaScript adds dynamic interactivity for an engaging interface.</p>
+      </div>
+    </div>
+    <div class="devItem">
+      <div class="inner">
+        <a href="#">Backend Development</a>
+        <p>For backend development, I utilize Django with MySQL. Django's high-level Python framework ensures efficient and secure handling of functionalities, while MySQL manages data reliably, providing a scalable foundation for seamless server-side operations and data integrity.</p>
+      </div>
+    </div>
+    <div class="devItem">
+      <div class="inner">
+        <a href="#">Cloud Computing</a>
+        <p>My cloud infrastructure relies on AWS services. EC2 instances offer computational power, Certificate Manager secures data, Route 53 manages DNS, and the Load Balancer distributes traffic across Target Groups, ensuring high availability and optimal performance.</p>
+      </div>
     </div>
   </div>
-  <div class="devItem">
-    <div class="inner">
-      <a href="#">Cloud Computing</a>
-      <p>AWS</p>
-    </div>
-  </div>
-  </div>
-
 </div>
 {% endblock %}

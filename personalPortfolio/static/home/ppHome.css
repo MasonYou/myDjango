@@ -1,5 +1,5 @@
 /* Main */
-.mainHome{
+.mainHome {
     margin-top: 80px;
     height: calc(100hv-80px);
     padding: 0 60px;
@@ -9,22 +9,22 @@
     gap: 30px;
 }
 
-.mainHome .left-section{
+.mainHome .left-section {
     display: flex;
     flex-direction: column;
     gap: 100px;
 }
 
-.mainHome .left-section .top h2{
+.mainHome .left-section .top h2 {
     font-size: 44px;
     margin-bottom: 20px;
 }
 
-.mainHome .left-section .top h3{
+.mainHome .left-section .top h3 {
     font-size: 24px;
 }
 
-.mainHome .left-section .top p{
+.mainHome .left-section .top p {
     color: #606060;
     font-size: 18px;
     margin-bottom: 20px;
@@ -36,11 +36,11 @@
     gap: 8px;
 }
 
-.mainHome .left-section .top .buttons button{
+.mainHome .left-section .top .buttons button {
     font-size: 16px;
     border: none;
-    padding: 5px 20px; 
-    background: #fff ;
+    padding: 5px 20px;
+    background: #fff;
     border: 1px solid #dedede;
     border-radius: 12px;
     display: flex;
@@ -51,11 +51,11 @@
     transition: all 0.3s ease;
 }
 
-.mainHome .left-section .top .buttons i{
+.mainHome .left-section .top .buttons i {
     font-size: 26px;
 }
 
-.mainHome .left-section .top .buttons button:hover{
+.mainHome .left-section .top .buttons button:hover {
     background: #000;
     color: #fff;
 }
@@ -63,7 +63,7 @@
 
 
 /* AboutMe */
-.aboutMe{
+.aboutMe {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -72,7 +72,7 @@
     padding: 50px;
 }
 
-.aboutMe > p{
+.aboutMe>p {
     font-size: 14px;
     color: #606060;
     border: 1px solid #e8e8e8;
@@ -82,7 +82,7 @@
     background: #fff;
 }
 
-.aboutMe > h2{
+.aboutMe>h2 {
     font-size: 22px;
     text-align: center;
     margin-bottom: 30px;
@@ -94,10 +94,19 @@
     gap: 24px;
 }
 
-.aboutMe .devItems .devItem{
-    width: 26%;
-    border: 1px solid  #e8e8e8;
-    border-radius:  16px;
+.aboutMe .devItems .devItem {
+    width: 300px;
+    border: 1px solid #e8e8e8;
+    border-radius: 16px;
     background: #f1f1f1;
     padding: 0 0 30px;
+}
+
+
+.aboutMe .devItems .devItem .inner {
+    background-color: #fff;
+    padding: 24px;
+    border-radius: 16px;
+    border: 1px solid #e8e8e8;
+    min-height: 365px;
 }
