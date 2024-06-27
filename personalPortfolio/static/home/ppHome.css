@@ -1,3 +1,4 @@
+/* Main */
 .mainHome{
     margin-top: 80px;
     height: calc(100hv-80px);
@@ -59,6 +60,44 @@
     color: #fff;
 }
 
+
+
+/* AboutMe */
 .aboutMe{
     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #f5f5f5;
+    padding: 50px;
+}
+
+.aboutMe > p{
+    font-size: 14px;
+    color: #606060;
+    border: 1px solid #e8e8e8;
+    padding: 6px 14px;
+    border-radius: 16px;
+    margin-bottom: 12px;
+    background: #fff;
+}
+
+.aboutMe > h2{
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.aboutMe .devItems {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.aboutMe .devItems .devItem{
+    width: 26%;
+    border: 1px solid  #e8e8e8;
+    border-radius:  16px;
+    background: #f1f1f1;
+    padding: 0 0 30px;
 }
