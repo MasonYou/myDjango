@@ -4,3 +4,5 @@ website/__pycache__/
 
 rsaKeyPair.pem
 cmdAWS.txt
+
+.vscode
