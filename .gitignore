@@ -6,3 +6,9 @@ rsaKeyPair.pem
 cmdAWS.txt
 
 .vscode
+
+.DS_Store
+
+personalPortfolio/.DS_Store
+personalPortfolio/static/.DS_Store
+personalPortfolio/.DS_Store
