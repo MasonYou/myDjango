@@ -1,4 +1,12 @@
-.header{
-    margin-top: 80px;
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+.mainDocs{
+    background-color: #add8e6;
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resume {
+
 }
