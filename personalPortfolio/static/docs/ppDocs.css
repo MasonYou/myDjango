@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
 
 .mainDocs{
-    background-color: #add8e6;
+    margin-top: 80px;
+    height: calc(100hv-80px);
+    padding: 0 60px;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: space-between;
+    gap: 30px;
 }
 
-.resume {
 
-}
