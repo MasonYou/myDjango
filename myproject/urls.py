@@ -16,10 +16,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-from world import index 
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path('home/', include("personalPortfolio.urls")),
+    path('', include("personalPortfolio.urls")),
     path('userControl/', include('website.urls'))
 ]
