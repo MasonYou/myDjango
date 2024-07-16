@@ -9,3 +9,6 @@ def docs(request):
 
 def map(request):
     return render(request, 'map/ppMap.html', {})
+
+def projects(request):
+    return render(request, 'projects/ppProjects.html', {})
