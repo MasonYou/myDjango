@@ -6,13 +6,15 @@ This Web Application designed to showcase my personal and professional informati
 
 Table of Contents
 
-<li>Installation</li>
-<li>Usage</li>
-<li>Contributing</li>
-<li>License</li>
-<li>Contact</li>
-<li>Acknowledgments</li>
-<li>Installation</li>
-
+## Table of Contents
+1. [Installation](#installation)
+2. [Usage](#usage)
+3. [Contributing](#contributing)
+4. [License](#license)
+5. [Contact](#contact)
+6. [Acknowledgments](#acknowledgments)
 
 <h2>Prerequisites</h2>
+
+
+## Installation
