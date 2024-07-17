@@ -1,14 +1,14 @@
-myproject/__pycache__/
-personalPortfolio/__pycache__/
-website/__pycache__/
+.vscode
+.DS_Store
+
+myproject/__pycache__/*
+
+personalPortfolio/__pycache__/*
+personalPortfolio/.DS_Store
+personalPortfolio/static/.DS_Store
+
+website/__pycache__/*
+website/static/.DS_Store
 
 rsaKeyPair.pem
 cmdAWS.txt
-
-.vscode
-
-.DS_Store
-
-personalPortfolio/.DS_Store
-personalPortfolio/static/.DS_Store
-website/static/.DS_Store

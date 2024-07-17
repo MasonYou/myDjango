@@ -7,8 +7,5 @@ def home(request):
 def docs(request):
     return render(request, 'docs/ppDocs.html', {})
 
-def map(request):
-    return render(request, 'map/ppMap.html', {})
-
 def projects(request):
     return render(request, 'projects/ppProjects.html', {})
