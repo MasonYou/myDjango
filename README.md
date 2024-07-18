@@ -15,6 +15,6 @@ Table of Contents
 6. [Acknowledgments](#acknowledgments)
 
 ## Installation
-<h2>Prerequisites</h2>
+<h4>Prerequisites</h4>
 1. Python 3.10
 2. Docker-compose
