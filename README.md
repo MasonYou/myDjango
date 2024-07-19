@@ -16,5 +16,5 @@ Table of Contents
 
 ## Installation
 <h4>Prerequisites</h4>
-1. Python 3.10
-2. Docker-compose
+<li>Python 3.10</li>
+<li>Docker-compose</li>
