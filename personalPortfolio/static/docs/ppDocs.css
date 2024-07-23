@@ -9,53 +9,36 @@
     gap: 30px;
 }
 
-.mainDocs .left-section {
+.mainDocs {
     display: flex;
     flex-direction: column;
     gap: 100px;
 }
 
-.mainDocs .left-section .top h2 {
+.mainDocs h2 {
     font-size: 44px;
     margin-bottom: 20px;
 }
 
-.mainDocs .left-section .top h3 {
+.mainDocs h3 {
     font-size: 24px;
 }
 
-.mainDocs .left-section .top p {
+.mainDocs p {
     color: #606060;
     font-size: 18px;
     margin-bottom: 20px;
     text-align: justify;
 }
 
-.mainDocs .left-section .top .buttons {
+.mainDocs {
     display: flex;
     gap: 8px;
 }
 
-.mainDocs .left-section .top .buttons button {
-    font-size: 16px;
-    border: none;
-    padding: 5px 20px;
-    background: #fff;
-    border: 1px solid #dedede;
-    border-radius: 12px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 5px;
-    font-weight: 500;
-    transition: all 0.3s ease;
-}
 
-.mainDocs .left-section .top .buttons i {
-    font-size: 26px;
-}
-
-.mainDocs .left-section .top .buttons button:hover {
-    background: #000;
-    color: #fff;
+/* Table CSS First Row*/
+.nameRow {
+    align-content: center;
+    
 }
