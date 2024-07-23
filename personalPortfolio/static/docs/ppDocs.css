@@ -38,7 +38,7 @@
 
 
 /* Table CSS First Row*/
-.nameRow {
-    align-content: center;
-    
+.mainTable .infoTable {
+    align-items: center;
+
 }

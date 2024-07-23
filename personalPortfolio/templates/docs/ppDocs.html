@@ -1,21 +1,25 @@
-{% extends 'ppBase.html' %}
-
-{% block content %}
-
-{% load static %}
-<link rel="stylesheet" type="text/css" href={% static 'docs/ppDocs.css' %} >
+{% extends 'ppBase.html' %} {% block content %} {% load static %} <link
+rel="stylesheet" type="text/css" href={% static 'docs/ppDocs.css' %} >
 
 <div class="mainDocs">
-    <div class="resume">
-        <table class="tblMain">
-            <tr class="nameRow">
-                <table class="nameTable">
-                    <tr>Wangchen(Mason) You</tr>
-                    <tr>Address: 7065 Frederick Avenue, Burnaby, BC, V5J 3X8</tr>
-                    <tr>Phone:(778)956-3661</tr>
-                </table>
+  <div class="resume">
+    <table class="mainTable">
+      <tr class="infoRow">
+        <td>
+          <table class="infoTable">
+            <tr>
+              <td>Wangchen (Mason) You</td>
             </tr>
-        </table>
-    </div>
+            <tr>
+              <td>Address: 7065 Frederick Avenue, Burnaby, BC, V5J 3X8</td>
+            </tr>
+            <tr>
+              <td>Phone: (778) 956-3661</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </div>
 </div>
 {% endblock %}
