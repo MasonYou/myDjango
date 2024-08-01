@@ -1,6 +1,13 @@
 {% extends 'ppBase.html' %} {% block content %} {% load static %} <link
 rel="stylesheet" type="text/css" href={% static 'docs/ppDocs.css' %} >
+<div class="mainDocs">
+    <embed class="embedPDF" src={% static 'docs/Mason_WangchenYou_Resume.pdf' %} type="application/pdf">
+</div>
 
+
+{% endblock %}
+
+{% comment %} 
 <div class="mainDocs">
   <div class="resume">
     <table class="mainTable">
@@ -31,30 +38,26 @@ rel="stylesheet" type="text/css" href={% static 'docs/ppDocs.css' %} >
       </tr>
       <tr class="eduRow">
         <td>
-            <table class="eduTable">
-                <tr>
-                    <td>The University of Hong Kong
-                    </td>
-                </tr>
-            </table>
+          <table class="eduTable">
+            <tr>
+              <td>The University of Hong Kong</td>
+            </tr>
+            <tr>
+               <td> Bachelor of Engineering in Computer Engineering</td>
+            </tr>
+          </table>
         </td>
       </tr>
-            <tr class="workRow">
+      <tr class="workRow">
         <td>
-            <table class="workTable">
-                
-            </table>
+          <table class="workTable"></table>
         </td>
       </tr>
-                  <tr class="projectRow">
+      <tr class="projectRow">
         <td>
-            <table class="projectTable">
-                
-            </table>
+          <table class="projectTable"></table>
         </td>
       </tr>
-
     </table>
   </div>
-</div>
-{% endblock %}
+</div> {% endcomment %}
