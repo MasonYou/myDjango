@@ -45,24 +45,3 @@ embed {
     /* Removes any default border */
     box-sizing: border-box;
 }
-
-/* Main
-.mainTable .infoTable {
-    width: 100%;
-    border-collapse: collapse;
-}
-
-.infoRow {
-    text-align: center;
-    vertical-align: middle;
-}
-
-.infoTable td {
-    text-align: center;
-    vertical-align: middle;
-}
-
-.mainTable {
-    display: flex;
-    justify-content: center;
-} */
