@@ -36,11 +36,24 @@
     gap: 8px;
 }
 
-embed {
+.mainDocs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    height: 100%;
-    max-width: 100%;
-    max-height: 100%;
+    height: 100vh;
+    /* Use the full viewport height */
+    box-sizing: border-box;
+    padding: 20px;
+    /* Optional padding */
+}
+
+.embedPDF {
+    width: 100%;
+    max-width: calc(100vh * 0.7727);
+    /* Maintain the 8.5/11 aspect ratio */
+    height: auto;
+    /* Adjust height automatically to maintain aspect ratio */
     border: none;
     /* Removes any default border */
     box-sizing: border-box;
