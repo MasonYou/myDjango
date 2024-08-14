@@ -14,10 +14,10 @@
         internal ERP systems.
       </p>
       <div class="buttons">
-        <button class="linkedinButton" onclick="goToLinkedin()">
+        <button class="linkedinButton" onclick="window.open('{% url 'goToLinkedIn' %}', '_blank')">
           <i class="ri-linkedin-box-fill"></i> My Linkedin
         </button>
-        <button class="githubButton" onclick="{% url 'goToLinkedIn' %}" target="_blank">
+        <button class="githubButton" onclick="window.open('{% url 'goToLinkedIn' %}', '_blank')">
           <i class="ri-github-fill"></i> My GitHub
         </button>
       </div>
