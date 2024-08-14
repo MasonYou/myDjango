@@ -17,7 +17,7 @@
         <button class="linkedinButton" onclick="goToLinkedin()">
           <i class="ri-linkedin-box-fill"></i> My Linkedin
         </button>
-        <button class="githubButton" onclick="goToGitHub()">
+        <button class="githubButton" onclick="{% url 'goToLinkedIn' %}" target="_blank">
           <i class="ri-github-fill"></i> My GitHub
         </button>
       </div>

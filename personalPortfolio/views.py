@@ -9,3 +9,7 @@ def docs(request):
 
 def projects(request):
     return render(request, 'projects/ppProjects.html', {})
+
+def goToLinkedIn(request):
+    linkedinURL = "https://linkedin.com/in/mason-you-1057401a0"
+    return redirect(linkedinURL)
