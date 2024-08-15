@@ -1,5 +1,4 @@
 {% extends 'ppBase.html' %} {% block content %} {% load static %}
-<script src="{% static 'home/ppHome.js' %}"></script>
 <link rel="stylesheet" href="{% static 'home/ppHome.css' %}" />
 
 <div class="mainHome">
@@ -17,7 +16,7 @@
         <button class="linkedinButton" onclick="window.open('{% url 'goToLinkedIn' %}', '_blank')">
           <i class="ri-linkedin-box-fill"></i> My Linkedin
         </button>
-        <button class="githubButton" onclick="window.open('{% url 'goToLinkedIn' %}', '_blank')">
+        <button class="githubButton" onclick="window.open('{% url 'goToGitHub' %}', '_blank')">
           <i class="ri-github-fill"></i> My GitHub
         </button>
       </div>

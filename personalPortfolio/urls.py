@@ -5,5 +5,6 @@ urlpatterns = [
     path('', views.home, name='masonMainPage'),
     path('Docs', views.docs, name='masonDocs'),
     path('Projects', views.projects, name='masonProjects'),
-    path('linkedin', views.goToLinkedIn, name='goToLinkedIn')
+    path('masonlinkedin', views.goToLinkedIn, name='goToLinkedIn'),
+    path('masongithub', views.goToGitHub, name='goToGitHub')
 ]

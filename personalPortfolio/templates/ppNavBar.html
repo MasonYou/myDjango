@@ -6,5 +6,5 @@
         <a href="{% url 'masonDocs' %}">Resume</a>
         {% comment %} <a href="{% url 'masonProjects' %}">Projects</a> {% endcomment %}
     </div>
-    <button onclick="goToGitHub()"><i class="ri-github-fill"></i> My GitHub</button>
+    <button onclick="window.open('{% url 'goToGitHub' %}', '_blank')"><i class="ri-github-fill"></i> My GitHub</button>
 </nav>

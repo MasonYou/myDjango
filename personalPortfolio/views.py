@@ -13,3 +13,7 @@ def projects(request):
 def goToLinkedIn(request):
     linkedinURL = "https://linkedin.com/in/mason-you-1057401a0"
     return redirect(linkedinURL)
+
+def goToGitHub(request):
+    githubURL = "https://github.com/MasonYou"
+    return redirect(githubURL)
